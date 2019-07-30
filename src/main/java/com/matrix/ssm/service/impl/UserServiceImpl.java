@@ -36,9 +36,6 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public List<TestUser> getUserAll() {
-//    	SqlSession session = sqlSessionFactory.openSession();
-//		TestUserMapper mapper = session.getMapper(TestUserMapper.class);
-//       List<TestUser> list = mapper.selectUserAll();
         return testUserMapper.selectUserAll();
     }
 

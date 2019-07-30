@@ -7,10 +7,10 @@
                         http://www.springframework.org/schema/context
                         http://www.springframework.org/schema/context/spring-context-3.1.xsd">
 
-
+    <!--开启扫描 -->
     <context:component-scan base-package="com.matrix.ssm"></context:component-scan>
-
-
+    <!--导入UReport2提供的spring配置文件 -->
+ <import resource="classpath:ureport-console-context.xml" />
 
     <!-- 引入配置文件 -->
     <bean id="propertyConfigurer"
