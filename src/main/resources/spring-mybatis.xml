@@ -11,7 +11,7 @@
     <context:component-scan base-package="com.matrix.ssm"></context:component-scan>
     <!--导入UReport2提供的spring配置文件 -->
  <import resource="classpath:ureport-console-context.xml" />
-
+<bean id="testBean" class="com.matrix.ssm.TestBeanXreport2"></bean>  
     <!-- 引入配置文件 -->
     <bean id="propertyConfigurer"
           class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">

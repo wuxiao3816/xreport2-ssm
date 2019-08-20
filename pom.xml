@@ -22,7 +22,7 @@
 
 		<!--spring对应的版本号 -->
 
-		<spring.version>4.2.1.RELEASE</spring.version>
+		<spring.version>5.0.4.RELEASE</spring.version>
 
 
 	</properties>
@@ -252,6 +252,12 @@
 
 
 
+<!-- https://mvnrepository.com/artifact/stax/stax-api -->
+<dependency>
+    <groupId>stax</groupId>
+    <artifactId>stax-api</artifactId>
+    <version>1.0</version>
+</dependency>
 
 
 		<!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->

@@ -8,7 +8,13 @@
     <result column="role_id" jdbcType="INTEGER" property="roleId" />
     <result column="mobile_phone" jdbcType="INTEGER" property="mobilePhone" />
   </resultMap>
-  
+    <resultMap id="BaseResultMap1" type="com.matrix.ssm.pojo.TestUser">
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="age" jdbcType="INTEGER" property="age" />
+    <result column="role_id" jdbcType="INTEGER" property="roleId" />
+    <result column="mobile_phone" jdbcType="INTEGER" property="mobilePhone" />
+  </resultMap>
    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
    	select
   		<include refid="Base_Column_List" />

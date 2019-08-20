@@ -5,9 +5,13 @@ import com.matrix.ssm.pojo.TestUserExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Service;
-public interface TestUserMapper {
+public interface TestUserMapper extends TestMapper {
     int countByExample(TestUserExample example);
-
+    
+    public default void ssssssss() {
+    	
+    }
+    
     int deleteByExample(TestUserExample example);
 
     int insert(TestUser record);

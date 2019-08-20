@@ -19,6 +19,9 @@ public class Test {
 		
 		TestUserMapper mapper = sqlSessionFactory.openSession().getMapper(TestUserMapper.class);
 		TestUser blog = mapper.selectByPrimaryKey(1);
+//		mapper.ssssssss();
 		System.out.println(blog.getUserName());
+	
+//		System.out.println(1025	&(Modifier.ABSTRACT | Modifier.PUBLIC | Modifier.STATIC));
 	}
 }
