@@ -11,6 +11,7 @@ public class TestUser {
 
     private Integer mobilePhone;
 
+
     public Integer getUserId() {
         return userId;
     }
@@ -24,6 +25,7 @@ public class TestUser {
     }
 
     public void setUserName(String userName) {
+    	System.out.println("----------------实例化---------------");
         this.userName = userName == null ? null : userName.trim();
     }
 
