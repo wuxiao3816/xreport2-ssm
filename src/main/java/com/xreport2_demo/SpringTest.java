@@ -7,8 +7,10 @@ import com.matrix.ssm.pojo.TestUser;
 
 public class SpringTest {
 	public static void main(String[] args) {
+		System.out.println(0);
 		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("com/xreport2_demo/spring-mybatis.xml");
 //		ClassPathResource
+		System.out.println(1);
 		//2. 从 IOC 容器中获取 bean 的实例
 		TestUser helloWorld1 = (TestUser) ctx.getBean("testUser"); 
 		System.out.println(helloWorld1.getUserName());

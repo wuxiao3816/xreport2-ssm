@@ -14,7 +14,7 @@
     
  	<aop:aspectj-autoproxy/>
 
-   <bean id="testUser" name="test1,test2" class="com.matrix.ssm.pojo.TestUser">
+   <bean id="testUser" name="test1,test2" class="com.matrix.ssm.pojo.TestUser1">
    	<property name="userName" value="陈大壮"></property>
    	 	<property name="age" value="18"></property>
    </bean>  

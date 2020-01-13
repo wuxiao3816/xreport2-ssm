@@ -6,7 +6,7 @@ import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 @Aspect
 public class AspectjTest {
-	@Pointcut("execution(* com.xreport2_demo.TestBean.*(..))")
+	@Pointcut("execution(* *(..))")
 	public void test() {
 		
 	}

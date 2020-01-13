@@ -11,8 +11,16 @@ public class TestUser {
 
     private Integer mobilePhone;
 
+    private String insCode;
+    public String getInsCode() {
+		return insCode;
+	}
 
-    public Integer getUserId() {
+	public void setInsCode(String insCode) {
+		this.insCode = insCode;
+	}
+
+	public Integer getUserId() {
         return userId;
     }
 
